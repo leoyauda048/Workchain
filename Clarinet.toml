@@ -9,6 +9,10 @@ requirements = []
 path = 'contracts/Workchain.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.ContractAmendments]
+path = 'contracts/ContractAmendments.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
